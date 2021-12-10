@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: /Users/apple/Documents/CLASSROOM/AI/project1
-cmd: /Users/apple/opt/anaconda3/envs/project1/bin/python3.8 setup.py sdist --formats=zip --dist-dir .tox/dist
+cmd: /Users/apple/opt/anaconda3/envs/project1/bin/python3.8 setup.py sdist --formats=zip --dist-dir /Users/apple/Documents/CLASSROOM/AI/project1/.tox/dist
 running sdist
 running egg_info
 writing src.egg-info/PKG-INFO
@@ -30,7 +30,8 @@ copying src.egg-info/SOURCES.txt -> src-0.0.1/src.egg-info
 copying src.egg-info/dependency_links.txt -> src-0.0.1/src.egg-info
 copying src.egg-info/top_level.txt -> src-0.0.1/src.egg-info
 Writing src-0.0.1/setup.cfg
-creating '.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
+creating /Users/apple/Documents/CLASSROOM/AI/project1/.tox/dist
+creating '/Users/apple/Documents/CLASSROOM/AI/project1/.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
 adding 'src-0.0.1/src.egg-info'
 adding 'src-0.0.1/src'
